@@ -33,7 +33,7 @@ cd ServerNormal
 python3 client.py
 ##To send a text file containing 11 sentences for translation:
 python3 client2.py
-
+```
 
 To set up Docker on your system, follow the official Docker installation guide for your operating system:[Install Docker](https://www.docker.com/)
 
