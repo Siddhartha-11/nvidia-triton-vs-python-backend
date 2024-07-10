@@ -20,11 +20,15 @@ docker run --rm -p8000:8000 -p8001:8001 -p8002:8002 \
 python3 model.py
 
 ### Step 4: Sending Inference request
-NVIDIA Triton Server
-##To enter a text and get the returned translated text: python3 entertext2.py
-##To send a text file containing 11 sentences for translation: python3 triton_translation.py
+##NVIDIA Triton Server
+##To enter a text and get the returned translated text:
+python3 entertext2.py
+##To send a text file containing 11 sentences for translation:
+python3 triton_translation.py
 
-Standard Server
-##To enter a text and get the returned translated text: python3 client.py
-##To send a text file containing 11 sentences for translation: python3 client2.py
+##Standard Server
+##To enter a text and get the returned translated text:
+python3 client.py
+##To send a text file containing 11 sentences for translation:
+python3 client2.py
 
