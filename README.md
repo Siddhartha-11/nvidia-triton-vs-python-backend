@@ -21,12 +21,14 @@ python3 model.py
 
 ### Step 4: Sending Inference request
 ##NVIDIA Triton Server
+cd python script file
 ##To enter a text and get the returned translated text:
 python3 entertext2.py
 ##To send a text file containing 11 sentences for translation:
 python3 triton_translation.py
 
 ##Standard Server
+cs ServerNormal
 ##To enter a text and get the returned translated text:
 python3 client.py
 ##To send a text file containing 11 sentences for translation:
