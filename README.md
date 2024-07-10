@@ -1,6 +1,6 @@
 # NVIDIA Triton vs Python Backend
 
-This repository contains a comparative analysis of NVIDIA Triton Inference Server and a standalone Python-based server for deep learning model inference performance and scalability.
+This repository contains the requirements for deploying an NLLB model in NVIDIA Triton Inference Server and a standalone Python-based server for deep learning model inference performance and scalability.
 
 **Triton container version used:** `nvcr.io/nvidia/tritonserver:24.01-py`
 
