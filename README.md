@@ -28,7 +28,7 @@ python3 entertext2.py
 python3 triton_translation.py
 
 ##Standard Server
-cs ServerNormal
+cd ServerNormal
 ##To enter a text and get the returned translated text:
 python3 client.py
 ##To send a text file containing 11 sentences for translation:
