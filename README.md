@@ -35,7 +35,7 @@ python3 client.py
 python3 client2.py
 ```
 
-To set up Docker on your system, follow the official Docker installation guide for your operating system:[Install Docker](https://www.docker.com/)
+To set up Docker on your system, follow the official Docker installation guide for your operating system : [Install Docker](https://www.docker.com/)
 
 To know more about NVIDIA Triton Inference server, follow the link to official NVIDIA Triton Inference Server guide : [NVIDIA Triton](https://docs.nvidia.com/deeplearning/triton-inference-server/user-guide/docs/index.html)
 
