@@ -11,7 +11,7 @@ git clone https://github.com/Siddhartha-11/nvidia-triton-vs-python-backend.git
 cd nvidia-triton-vs-python-backend
 
 ### Step 2: Launch Triton from the NGC Triton Container and Deploy the Model
-docker run --rm -p8000:8000 -p8001:8001 -p8002:8002 \
+docker run --rm --gpus=all -p8000:8000 -p8001:8001 -p8002:8002 \
   -v$(pwd)/Modelrepo/nllb:/models/nllb \
   --name triton-client nvcr.io/nvidia/tritonserver:24.01-py3 \
   tritonserver --model-repository=/models
@@ -33,4 +33,7 @@ cd ServerNormal
 python3 client.py
 ##To send a text file containing 11 sentences for translation:
 python3 client2.py
+
+
+To set up Docker on your system, follow the official Docker installation guide for your operating system:[Install Docker](https://www.docker.com/)
 
